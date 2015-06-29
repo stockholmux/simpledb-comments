@@ -1,0 +1,21 @@
+{
+  "name": "simpledb-comments",
+	"main": "./sdb-comments.node.js",
+  "version": "0.0.1",
+  "description": "Add user comments to any node/express site using AWS SimpleDB as a datastore",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Kyle J. Davis"
+  },
+  "license": "MIT",
+  "dependencies": {
+		"lodash"					: "*",
+		"date-utils"			: "*"
+  },
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/stockholmux/simpledb-comments"
+  }
+}
